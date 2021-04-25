@@ -26,12 +26,13 @@ $ git remote add リモートリポジトリの名前 "URL"
 ```
 5. リモートリポジトリにファイルをアップロードする
 ```
-$ git push origin master
+$ git push origin main
 //origin: git remote addの時に付けたリモートリポジトリ名
+//mina: ファイルをあげたいブランチの名前
 ```
 6. ファイルをリモートからダウンロードする
 ```
-$ git pull origin master
+$ git pull origin main
 ```
 7. 変更したファイルを把握する
 ```
